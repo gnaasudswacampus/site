@@ -1,0 +1,245 @@
+body{
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+
+
+
+/* class */
+
+/* banner and navigation and footer */
+
+.navs {
+  padding: 1% 15%;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.nav-link {
+  font-size: 0.8rem;
+}
+
+.intro {
+  text-align: center;
+  color: white;
+  padding: 15% 0;
+}
+.intro-heading {
+  font-weight: bold;
+}
+
+.intro-body {
+    margin-bottom: 2%;
+}
+
+
+.icon {
+  color: white;
+  margin: 0 1%;
+}
+
+@media screen and (max-width: 578px) {
+  .intro {
+    padding: 50% 0;
+  }
+
+  .intro-heading {
+    font-size: 1.5rem;
+    padding: 0 2%;
+  }
+}
+
+/* footer */
+
+.footer {
+  padding: 5% 15% ;
+  background-color: #fafafa;
+}
+
+.footer-text {
+  color: #8f8f8f;
+}
+
+.footer-icon {
+  color: #7b3033;
+}
+
+
+@media screen and (max-width: 578px) {
+
+  .footer {
+    padding: 20% 15%;
+    background-color: #fafafa;
+  }
+
+}
+
+
+/* end of banner navigation and footer */
+
+
+/* Homepage css */
+
+/* mission */
+
+.mission {
+  padding: 7% 15%;
+}
+
+.mission-heading {
+  font-weight: bolder;
+}
+
+.mission-body {
+  color: #8f8f8f;
+}
+
+.mission i, span {
+  color: #7b3033;
+  margin-bottom: 5%;
+}
+
+
+@media screen and (max-width: 578px) {
+
+  .mission {
+    padding: 16% 15%;
+  }
+
+  .mission-box {
+    margin-bottom: 15%;
+  }
+
+}
+
+/* stories */
+.stories {
+  padding: 0 15% 7% 15%;
+}
+
+.stories img {
+  padding-bottom: 4%;
+}
+
+.stories-heading {
+  font-weight: bolder;
+  padding: 2% 0;
+}
+
+.stories-text {
+ font-size: 0.9rem;
+  color: #8f8f8f;
+}
+
+
+/* contact page css */
+
+/* contact */
+
+.contact {
+  text-align: center;
+  color: white;
+  padding: 7% 0;
+}
+.contact-heading {
+  font-weight: bold;
+}
+
+.contact-body {
+    margin-bottom: 2%;
+}
+
+@media screen and (max-width: 578px) {
+  .contact {
+    padding: 30% 0;
+  }
+
+  .contact-heading {
+    font-size: 1.5rem;
+    padding: 0 2%;
+  }
+
+  .contact-body {
+      padding: 3% 5%;
+  }
+
+}
+
+
+.main {
+  padding: 7% 25%;
+}
+
+
+.form-space {
+  margin-bottom: 5%;
+}
+
+.btn-nice {
+    background-color: #7b3033;
+    color: white;
+}
+
+
+.stat-section {
+  margin: 0 0 8%;
+}
+
+.stat-text {
+  text-align: center;
+  padding:10% 20%;
+  color: white;
+}
+
+
+/* about page css */
+
+.about-section {
+    padding: 7% 15%;
+}
+
+.about-heading {
+  font-weight: bolder;
+
+}
+
+.about-text {
+  /* color: #8f8f8f; */
+  line-height: 2;
+}
+
+.about-subtext {
+  color: #8f8f8f;
+  margin-top: -15px;
+}
+
+@media screen and (max-width: 578px) {
+  .about-section {
+    padding: 7% 6%;
+  }
+}
+
+
+
+/* newsletter */
+.newsletter {
+    padding: 7% 15%;
+}
+
+.newsletter img {
+  padding-bottom: 4%;
+}
+
+.newsletter-heading {
+  font-weight: bolder;
+  padding: 2% 0;
+}
+
+.newsletter-text {
+ font-size: 0.9rem;
+  color: #8f8f8f;
+}
